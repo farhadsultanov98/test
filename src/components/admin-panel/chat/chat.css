@@ -1,0 +1,151 @@
+
+/* Chat Container */
+.chat-container {
+    display: flex;
+    height: 90vh; 
+    padding: 5px;
+    overflow-y: auto;
+}
+
+/* Person List */
+.person-list {
+    width: 250px;
+    background: #f4f5f7;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+
+.person-list h3 {
+    margin-top: 0;
+}
+
+.person-list input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.person-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.person-list ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.person-list ul li:hover {
+    background: #e0e0e0;
+}
+
+.person-list ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.person-list ul li span {
+    font-size: 16px;
+}
+
+/* Chat Window */
+.Adminchat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.Adminchat-header {
+    background: #00A97F;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.Adminchat-messages {
+    flex: 1;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    background: #f1f1f1;
+}
+
+.chat-message {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.chat-message .message-content {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+}
+
+.chat-message .message-content:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-right: 0;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+.chat-message.sent .message-content {
+    background: #00A97F;
+    color: #fff;
+    margin-left: auto;
+}
+
+.chat-message.sent .message-content:before {
+    border-left-color: #00A97F;
+    left: auto;
+    right: -10px;
+}
+
+/* Chat Message */
+.Adminchat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.Adminchat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.Adminchat-input button {
+    background: #00A97F;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Adminchat-input button:hover {
+    background: #e6821b;
+}

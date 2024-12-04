@@ -1,0 +1,25 @@
+/* AdminPanelLayout.css */
+.admin-panel-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+  }
+  
+  .admin-panel-header {
+    flex: 0 0 auto; 
+  }
+  
+  .admin-panel-content {
+    display: flex;
+    flex: 1 1 auto; 
+  }
+  
+  .admin-panel-sidebar {
+    flex: 0 0 250px; 
+    width: 250px;
+  }
+  
+  .admin-panel-main {
+    flex: 1 1 auto; 
+  }
+  

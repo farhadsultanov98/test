@@ -1,0 +1,62 @@
+{
+    "header": {
+        "homepage": "Ana Səhifə",
+        "about": "Haqqımızda",
+        "services": "Xidmətlər",
+        "service1": "İnsan Resurslarının Autsorsinqi",
+        "service2": "İşə qəbul Autsorsinqi",
+        "service3": "İşçi qüvvəsi təchizatı",
+        "service4": "Satınalma Autsorsinqi",
+        "service5": "Əmək haqqının hesablanması Autsorsinqi",
+        "service6": "Mühasibatlıq Autsorsinqi",
+        "service7": "İmmiqrasiya Autsorsinqi",
+        "service8": "Təlim və qiymətləndirmə",
+        "vacancies": "Vakansiyalar",
+        "contact": "Əlaqə",
+        "startbtn": "İşə başlayın"
+    },
+    "main": {
+        "onesectiononecaption": "İnsan Resurslarının İdarə Edilməsi: Məhsuldarlığı artırmaq və işçilərin məmnuniyyətini təmin etmək üçün effektiv strategiyalar.",
+        "onesectiontwocaption": "İşə qəbul prosesləri: Ən yaxşı namizədləri seçmək və işə qəbul proseslərini optimallaşdırmaq üçün innovativ üsullar.",
+        "onesectionthreecaption": "İşçilərin İnkişafı: Təlim və inkişaf proqramları vasitəsilə işçilərin karyera məqsədlərinə dəstək.",
+        "threesectiontitle": "Fəaliyyət sahələrimiz",
+        "threesectiononeheader": "İstedadların əldə edilməsi",
+        "threesectiononecaption": "Şirkətinizin ehtiyaclarına uyğun gələn ən yaxşı istedadı cəlb etmək və işə götürmək üçün ekspert strategiyaları.",
+        "threesectiontwoheader": "İşçilərin Müavinətləri",
+        "threesectiontwocaption": "Ən yüksək istedadı cəlb etmək və saxlamaq üçün nəzərdə tutulmuş hərtərəfli fayda paketləri.",
+        "threesectionthreeheader": "Təlim və İnkişaf",
+        "threesectionthreecaption": "İşçilərin bacarıqlarının və karyera yüksəlişinin artırılmasına yönəlmiş proqramlar və seminarlar.",
+        "threesectionfourheader": "Performans İdarəetmə",
+        "threesectionfourcaption": "İşçilərin fəaliyyətini effektiv şəkildə qiymətləndirmək və təkmilləşdirmək üçün sistemlər və strategiyalar.",
+        "threesectionfiveheader": "İşçilərin cəlb edilməsi",
+        "threesectionfivecaption": "Müsbət iş mühiti yaratmaq və işçilərin məmnunluğunu artırmaq üçün texnika və strategiyalar.",
+        "commentsectionopinions": "Fikirlərinizi bizimlə bölüşün",
+        "commentsectionplaceholderone": "Şərhinizi bura yazın...",
+        "commentsectionplaceholdertwo": "Adınız və Sahəniz",
+        "commentsectiongendersection": "Cinsiyyətinizi seçin",
+        "commentsectiongenderfemale": "Qadın",
+        "commentsectiongendermale": "Kişi",
+        "commentsectionwritecomment": "Şərh yazın",
+        "commentsectionclientcomments": "Müştəri şərhləri",
+        "statisticheaderone": "Müştərilərin Sayı",
+        "statisticdescriptionone": "Ətraflı Məlumat: Müştərilərimizin məmnuniyyəti günü-gündən artır!",
+        "statisticheadertwo": "Layihə Tamamlandı",
+        "statisticdescriptiontwo": "Ətraflı məlumat: Tamamlanmış layihələrimiz yüksək müvəffəqiyyət dərəcəsinə malikdir.",
+        "statisticheaderthree": "Mükafatlar",
+        "statisticdescriptionthree": "Ətraflı məlumat: Sektordakı uğurlarımızı qazandığımız mükafatlarla göstəririk."
+    },
+    "footer": {
+        "info": "Əlaqə",
+        "usefullinks": "Vacib keçidlər",
+        "news": "Yeniliklər",
+        "support": "Dəstək",
+        "latestupdate": "Son yeniliklər",
+        "subs": "Yeniliklərdən xəbərdar olmaq üçün abunə olun",
+        "maps": "Abdulvahab Salamzadə küçəsi ev 65a",
+        "inputholder": "Email yazın"
+    },
+    "notfoundpage": {
+        "title": "Nə isə səhv getdi!",
+        "backtomain": "İlkin səhifəyə qayıt."
+    }
+}

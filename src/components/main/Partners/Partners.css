@@ -1,0 +1,72 @@
+.twosection-bodys {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 30vh;
+	margin-top: 3vh;
+}
+
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-50%); }
+}
+
+.twosection-bodys .slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+
+.twosection-bodys .slider .slide-track {
+	animation: scroll 20s linear infinite; 
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around; 
+	min-width: 200%; 
+	position: absolute;
+	gap: 60px;
+	top: 0;
+	left: 0;
+	width: auto; 
+}
+
+
+.twosection-bodys .slider .slide {
+	height: 100px; 
+}
+
+
+.twosection-bodys .slider:hover .slide-track {
+	animation-play-state: paused;
+}
+
+
+.twosection-bodys .slider .slide {
+	filter: grayscale(100%);
+	transition: 300ms all linear;
+}
+
+.twosection-bodys .slider .slide:hover {
+	filter: none;
+}
+
+@media (max-width: 767px){
+	.twosection-bodys .slider .slide a img{
+		height: 40px;
+		width: 50px;
+	}
+	.twosection-bodys .slider{
+		height: 60px;
+	}
+	.twosection-bodys .slider .slide{
+		height: 60px;
+	}
+	.twosection-bodys{
+		height: 15vh;
+	}
+}
